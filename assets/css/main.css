@@ -1,4 +1,4 @@
+@import url('./navbar.css');
+@import url('./shared.css');
+@import url('./reset.css');
 
-.current {
-    color: green;
-}
