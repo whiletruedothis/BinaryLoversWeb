@@ -13,8 +13,8 @@ hasNavBar: true
 hasFooter: true
 
 #deploy config
-baseurl: /
-url: 
+baseurl: ""
+url: ""
 
 #info
 contact: jaymi@gmail.com
