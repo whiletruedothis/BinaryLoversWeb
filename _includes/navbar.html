@@ -1,0 +1,25 @@
+{% if site.hasNavBar == true %}
+   
+    <nav class="nav">
+        <ul class="home-container">
+            <li class="menu-item {% if page.url == "/"%} current-menu-item{% endif %}" >
+                    <a  href="/">Home</a>
+            </li>
+        </ul>
+        <div class="burger-menu-container">
+            <div id="burger-menu-icon" class="burger-button ">
+                    <i class="material-icons">menu</i>
+            </div>
+        </div>
+        <ul  id="menu" class="web-menu-container">
+            {% for item in site.data.navigation %}
+                <li class="menu-item {% if page.url == item.link %} current-menu-item{% endif %}">
+                    <a  href="{{ item.link }}">
+                            {{ item.name }}
+                        </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+{% endif %}

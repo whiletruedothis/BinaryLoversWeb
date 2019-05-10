@@ -1,4 +1,25 @@
 a {
-    color: blue;
     text-decoration: none; /* no underline */
 }
+
+body {
+    margin: 0;
+    font-weight: var( --size-normal-text);
+    color: var(--normal-text);
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+} 
+
+:focus {
+    outline: 0;
+}
+

@@ -1,14 +1,16 @@
 
-- name: Blog
-  link: /pages/blog.html
+- name: Noticias
+  link: /pages/news.html
 - name: Acerca de nosotros
   link: /pages/about.html
 - name: Equipo
   link: /pages/team.html
-- name: Proyectos
-  link: /pages/projects.html
 - name: Publicaciones
   link: /pages/publications.html
+
+
+
+
 
 
 

@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+    .web-menu-container{ 
+        display: none;     
+    }
+
+    .burger-button{
+        display: block;
+    }
+}
+
+
+
+.mobile-menu{
+    display: block;
+    width: 200px;
+    top: var( --nav-bar-size);
+}
+

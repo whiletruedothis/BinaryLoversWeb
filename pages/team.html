@@ -1,0 +1,21 @@
+---
+layout: list-page
+title: Equipo
+---
+
+
+
+<div class="image-container">
+    <img src="https://media.giphy.com/media/l0HlGPNqhq07VzPeU/giphy.gif" alt="">
+</div>
+
+<ul>
+    {% for item in site.data.team %}
+        <li class="list-container">
+            <a>{{ item.name }}</a> - 
+            <a class="thin-text-style">{{ item.role }}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+<!-- TODO: Agregar foto -->

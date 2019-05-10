@@ -1,0 +1,13 @@
+
+.title-continer {
+    margin: 7em 5em 3em 5em;
+}    
+
+.title{
+    text-align: center;
+    color: var(--title-color);
+}
+
+.thin-text-style{
+    font-weight: var(--size-light-text);
+}

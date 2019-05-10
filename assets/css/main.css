@@ -1,4 +1,35 @@
-@import url('./navbar.css');
-@import url('./shared.css');
+/* includes */
+@import url('./includes/navbar/navbar.css');
+@import url('./includes/navbar/navbar-mobile.css');
+@import url('./includes/footer/footer.css');
+
+/* pages */
+@import url('./pages/home.css');
+@import url('./pages/news.css');
+
+
+/* shared */
+@import url('./shared/colors.css');
+@import url('./shared/text.css');
+@import url('./shared/values.css');
+@import url('./shared/buttons.css');
+@import url('./shared/container/containers.css');
+@import url('./shared/container/containers-mobile.css');
+
+
+
 @import url('./reset.css');
+
+
+
+
+/* properties */
+.centered-text{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
 

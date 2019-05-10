@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: var(--footer-size);
+    background-color: var(--footer-color);
+}
+
+.contact-info-container{
+    position: absolute;
+    right: 1em;
+    width: 200px;
+    line-height: var(--footer-size);
+    text-align: center;
+    height: var(--footer-size);
+}
+
+.contact-info-container a {
+    cursor: pointer;
+    color: var(--contact-text-color);
+    font-size: var(--contact-size-text)
+}

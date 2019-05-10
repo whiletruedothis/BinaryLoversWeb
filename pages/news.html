@@ -1,0 +1,16 @@
+---
+layout: list-page
+title: Noticias
+---
+
+
+<div class="news-container">
+    <ul>
+        {% for item in site.data.news %}
+            <li class="list-container">
+                <a>{{ item.date }}</a>  - 
+                <a class="thin-text-style">{{ item.content }}</a> 
+            </li>
+        {% endfor %}
+    </ul>
+</div>

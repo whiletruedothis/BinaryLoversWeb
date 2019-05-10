@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+
+    .image-container {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .image-container {
+        width: 100%;
+    }
+
+}
+
+

@@ -1,0 +1,17 @@
+:root {
+    /* navbar */
+    --nav-bar-size: 3em;
+    
+    --size-light-text: 50;
+    --size-normal-text: 300;
+    --weight-navbar-text: 400;
+
+    --number-of-elements: {% site.data.navigation * 100 %} px;
+
+    /* buttons */
+    --footer-size: 3em;
+    --size-of-text-in-button: 14px;
+
+    /* footer */
+    --contact-size-text: 13px;
+}

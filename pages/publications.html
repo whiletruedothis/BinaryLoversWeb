@@ -1,0 +1,14 @@
+---
+layout: list-page
+title: Publicaciones
+---
+
+<ul>
+    {% for item in site.data.publications %}
+        <li class="list-container">
+            <a>{{ item.date }}</a>  - 
+            <a class="thin-text-style">{{ item.author }}</a> - 
+            <a href="{{item.link}}" target="_blank" >{{item.title}}</a>
+        </li>
+    {% endfor %}
+</ul>
