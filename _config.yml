@@ -12,6 +12,10 @@ roboto: true
 hasNavBar: true
 hasFooter: true
 
+#deploy config
+baseurl: BinaryLoversWeb
+url: 
+
 #info
 contact: jaymi@gmail.com
 
