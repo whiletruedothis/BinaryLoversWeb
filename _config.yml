@@ -13,7 +13,7 @@ hasNavBar: true
 hasFooter: true
 
 #deploy config
-baseurl: BinaryLoversWeb
+baseurl: /
 url: 
 
 #info
