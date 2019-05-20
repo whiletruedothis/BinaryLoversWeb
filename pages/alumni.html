@@ -1,0 +1,13 @@
+---
+layout: list-page
+title: Alumni
+---
+
+<ul>
+    {% for item in site.data.alumni %}
+        <li class="list-container">
+           - <a>{{ item.name }}</a> 
+        </li>
+    {% endfor %}
+</ul>
+    
