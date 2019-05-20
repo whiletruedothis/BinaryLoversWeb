@@ -5,13 +5,13 @@ title: Quiero ser parte
 
 **Pasos**
 
-1. Darle like a nuestra página en facebook hahaha (no es un chiste)
-2. Realizar un carta de solicitud de ingreso a la sociedad, la carta debe contener la siguiente información
+1. Darle like a nuestra página en facebook 
+2. Realizar un carta de solicitud de ingreso a la sociedad, la carta debe contener la siguiente información. En este [link]({{site.url}}/assets/documents/ingreso.docx) puedes encontrar un template
   1. Nombre completo
   2. Carnet de Identidad (lugar de emisión)
   3. Semestre Actual
   4. Áreas de Investigación que más te interesan según la ACM (entre 3 y 5) [https://dl.acm.org/ccs/ccs\_flat.cfm](https://dl.acm.org/ccs/ccs_flat.cfm)
-3. Descargar la carta de compromiso del siguiente link, y adjuntarlo a su solicitud.
+3. Descargar la carta de compromiso del siguiente [link]({{site.url}}/assets/documents/compromiso.docx), y adjuntarlo a su solicitud.
 4. Las cartas se deben dejar en el escritorio de Juan Pablo en el 5to piso
 (docente responsable de la sociedad)
 5. El comité dará visto bueno a la solicitud y procederá a una entrevista.
