@@ -4,9 +4,14 @@
   role: Presidente
 - name: Rodrigo Torrico
   role: Vicepresidente
+- name: Nicole Barreto 
+  role: Tesorera
+- name: Joshua 
+  role: Vocal
 - name: Jeymi Paulas
   role: Secretaria
 - name: Daniel Aparicio
+  role: Coordinador
 - name: Juslan Vargas
 - name: Yigael Balderrama
 - name: Jhonny Camacho
@@ -16,8 +21,6 @@
 - name: Oscar Zurita
 - name: Ruyasi Chanove
 - name: Angy Encinas
-- name: Joshua Nostas
-- name: Nicole Barreto 
 - name: Sebastian Jordan 
 - name: Irina Eterovic
 - name: Harold Camacho
