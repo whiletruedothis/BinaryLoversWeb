@@ -12,7 +12,8 @@ title: Equipo
 <ul>
     {% for item in site.data.team %}
         <li class="list-container">
-            <a>{{ item.name }}</a> - 
+            <a>{{ item.name }}</a> 
+            {%if item.role != null%}-{%endif%}
             <a class="thin-text-style">{{ item.role }}</a>
         </li>
     {% endfor %}
