@@ -2,11 +2,12 @@
     --nav-bar-size: 3em;
 
     /* navbar colors */
-    --navbar-item-color: white;
-    --navbar-background-color: white;
+    --navbar-item-color: rgb(240, 240, 240);
+    --navbar-background-color:rgb(240, 240, 240);
     --navbar-item-text-color: rgb(121, 121, 121);
-    --hovered-navbar-color: #f5f5f5;
-    --active-menu-item-color: #fafafa;
+    --hovered-item-text-color: rgb(240, 240, 240);
+    --hovered-navbar-color: rgb(28, 82, 100);
+    --active-menu-item-color: #1B4959;
 
     /* burger menu icon */
     --burger-icon-color: #535353;
@@ -17,11 +18,11 @@
     --normal-text: #575757;
 
     /* buttons */
-    --button-color: #3285e4;
+    --button-color: #4998A4;
     --button-text-color:  white;
 
     /* footer */
-    --footer-color: rgb(214, 214, 214);
-    --contact-text-color: rgb(104, 104, 104);
+    --footer-color: #1B4959;
+    --contact-text-color: rgb(241, 241, 241);
 
 }

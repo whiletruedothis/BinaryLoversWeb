@@ -34,6 +34,10 @@
     background-color: var(--active-menu-item-color);
 }
 
+.current-menu-item a {
+    color: var(--hovered-item-text-color) !important;
+}
+
 .menu-item a {
     display: block;
     height:  100%;
@@ -43,6 +47,10 @@
 
 .menu-item:hover { 
     background-color: var(--hovered-navbar-color);
+}
+
+.menu-item:hover a {
+    color: var(--hovered-item-text-color) !important;
 }
 
 .burger-menu-container{

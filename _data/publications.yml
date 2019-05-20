@@ -1,28 +1,24 @@
-- date: '22/03/12'
-  author: 'Leanddro Guardia'
-  title: 'AI utilizado para detectar videos'
-  link: 'https://google.com'
-- date: '22/03/12'
-  author: 'Leanddro Guardia'
-  title: 'AI utilizado para detectar videos'
-  link: 'https://google.com'
-- date: '22/03/12'
-  author: 'Leanddro Guardia'
-  title: 'AI utilizado para detectar videos'
-  link: 'https://google.com'
-- date: '22/03/12'
-  author: 'Leanddro Guardia'
-  title: 'AI utilizado para detectar videos'
-  link: 'https://google.com'
-- date: '22/03/12'
-  author: 'Leanddro Guardia'
-  title: 'AI utilizado para detectar videos'
-  link: 'https://google.com'
-- date: '22/03/12'
-  author: 'Leanddro Guardia'
-  title: 'AI utilizado para detectar videos'
-  link: 'https://google.com'
-- date: '22/03/12'
-  author: 'Leanddro Guardia'
-  title: 'AI utilizado para detectar videos'
-  link: 'https://google.com'
+- date: 2/Nov/2018
+  author: Cesar Ivan Delgado Silva
+  title: Blockly Voice - un entorno de programación guiado por voz
+  link: http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1683-07892019000100006&lng=es&nrm=iso
+- date: 1/Ago/2018
+  author: Wendoline Arteaga Sabja & Juan Pablo Sandoval
+  title: Factores que intervienen en el rendimiento académico en la Universidad
+  link: http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1683-07892018000200004&lng=es&nrm=iso&tlng=es
+- date: 1/Sep/2018
+  author: Denis Leandro Guardia Vaca, Juan Pablo Sandoval Alcocer
+  title: Una técnica de muestreo para categorizar videos
+  link: http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1683-07892018000200009&lng=es&nrm=iso
+- date: 
+  author: Alison Fernandez Blanco, Juan Pablo Sandoval, Alexandre Bergel
+  title: Effective Visualization of Object Allocation Sites
+  link: http://bergel.eu/MyPapers/Fern18a.pdf
+- date: 
+  author: Daniela Meneses Vargas, Alison Fernandez Blanco, Andreina Cota Vidaurre, Alexandre Bergel, Milton Mamani Torres, Juan Pablo Sandoval 
+  title: Deviation Testing - A Test Case Generation Technique for GraphQL APIs
+  link: http://bergel.eu/MyPapers/Mene18a-GraphQL.pdf
+
+
+
+

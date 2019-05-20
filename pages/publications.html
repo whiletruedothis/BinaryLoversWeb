@@ -7,8 +7,10 @@ title: Publicaciones
     {% for item in site.data.publications %}
         <li class="list-container">
             <a>{{ item.date }}</a>  - 
-            <a class="thin-text-style">{{ item.author }}</a> - 
-            <a href="{{item.link}}" target="_blank" >{{item.title}}</a>
+            <a class="thin-text-style">{{ item.author }}</a> 
+            <p>
+                <a href="{{item.link}}" target="_blank" >{{item.title}}</a>
+            </p>
         </li>
     {% endfor %}
 </ul>
