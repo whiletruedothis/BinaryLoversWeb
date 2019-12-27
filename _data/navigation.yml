@@ -11,7 +11,7 @@
 - name: Publicaciones
   link: /pages/publications.html
   icon: fas fa-list
-- name: <i class=""></i> Alumni
+- name: Alumni
   link: /pages/alumni.html
   icon: fas fa-user-graduate
 
