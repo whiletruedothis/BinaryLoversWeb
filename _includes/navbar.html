@@ -3,7 +3,7 @@
     <nav class="nav">
         <ul class="home-container">
             <li class="menu-item {% if page.url == "/"%} current-menu-item{% endif %}" >
-                    <a  href="/">Home</a>
+                    <a  href="/"><i class="fas fa-home"></i> Home</a>
             </li>
         </ul>
         <div class="burger-menu-container">
@@ -14,9 +14,7 @@
         <ul  id="menu" class="web-menu-container">
             {% for item in site.data.navigation %}
                 <li class="menu-item {% if page.url == item.link %} current-menu-item{% endif %}">
-                    <a  href="{{ item.link }}">
-                            {{ item.name }}
-                        </a>
+                    <a  href="{{ item.link }}"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
                 </li>
             {% endfor %}
         </ul>
