@@ -1,14 +1,19 @@
 
 - name: Noticias
   link: /pages/news.html
+  icon: far fa-newspaper
 - name: Acerca de nosotros
   link: /pages/about.html
+  icon: fas fa-user-circle
 - name: Equipo
   link: /pages/team.html
+  icon: fas fa-users
 - name: Publicaciones
   link: /pages/publications.html
+  icon: fas fa-list
 - name: Alumni
   link: /pages/alumni.html
+  icon: fas fa-user-graduate
 
 
 

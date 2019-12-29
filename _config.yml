@@ -1,5 +1,5 @@
 # pageContent
-title: BitLab - Sociedad científica de Ingeniería de sistemas - UCB
+title: BitLab - Sociedad científica UCB
 
 #libraries
 bulma: false
@@ -17,7 +17,7 @@ baseurl: ""
 url: ""
 
 #info
-contact: jey.pc.07@gmail.com
+contact: bitlab.ucbcba@gmail.com
 
 # to change the logo replace logo.jpg in /assets/imaages
 # to change the team picture  equipo.jpg in /assets/images
