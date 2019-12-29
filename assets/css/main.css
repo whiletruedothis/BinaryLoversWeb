@@ -3,8 +3,9 @@
 @import url('./includes/navbar/navbar-mobile.css');
 @import url('./includes/footer/footer.css');
 
-/* pages */
-@import url('./pages/home.css');
+/* layouts */
+@import url('./layouts/home.css');
+@import url('./layouts//home-mobile.css');
 
 /* shared */
 @import url('./shared/colors.css');

@@ -1,22 +1,24 @@
 
 .nav {
     position: fixed;
+    display: flex;
     top: 0;
     width: 100%;
     height: var(--nav-bar-size);
     background-color: var(--navbar-background-color);
-    box-shadow: 6px 9px 28px -13px rgba(155, 155, 155, 0.342);
+    box-shadow: 7px -4px 54px 0px rgba(33,33,33,0.64);
+
 }
 
 .home-container{
-    position: absolute;
-    height: 100%;
-    left: 0;
+    height: 45px;
+    margin-left: 7%;
 }
 
 .web-menu-container{
     display: flex;
     position: absolute;
+    margin-right: 7%;
 
     width: var(--number-of-elements);
     height: 100%;
@@ -26,17 +28,11 @@
 .menu-item {
     padding-left: 1em;
     padding-right: 1em;
+    height: 43px;  
     line-height: var(--nav-bar-size);
     background-color: var(--navbar-item-color);
 }
 
-.current-menu-item{
-    background-color: var(--active-menu-item-color);
-}
-
-.current-menu-item a {
-    color: var(--hovered-item-text-color) !important;
-}
 
 .menu-item a {
     display: block;
@@ -45,13 +41,14 @@
     color: var(--navbar-item-text-color);
 }
 
-.menu-item:hover { 
-    background-color: var(--hovered-navbar-color);
+.current-menu-item { 
+    border-bottom: 5px solid var( --active-menu-item-color);
 }
 
-.menu-item:hover a {
-    color: var(--hovered-item-text-color) !important;
+.menu-item:hover { 
+    border-bottom: 5px solid var(--hovered-navbar-color);
 }
+
 
 .burger-menu-container{
     position: absolute;

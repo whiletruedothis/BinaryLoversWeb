@@ -5,9 +5,9 @@
     --navbar-item-color: rgb(240, 240, 240);
     --navbar-background-color:rgb(240, 240, 240);
     --navbar-item-text-color: rgb(121, 121, 121);
-    --hovered-item-text-color: rgb(240, 240, 240);
-    --hovered-navbar-color: rgb(28, 82, 100);
+    --hovered-navbar-color: rgb(194, 194, 194);
     --active-menu-item-color: #1B4959;
+
 
     /* burger menu icon */
     --burger-icon-color: #535353;
@@ -18,8 +18,9 @@
     --normal-text: #575757;
 
     /* buttons */
-    --button-color: #4998A4;
-    --button-text-color:  white;
+    --button-color: rgb(253, 253, 253);
+    --button-text-color:  #1B1E76;
+    --button-on-hover: rgb(194, 194, 194);
 
     /* footer */
     --footer-color: #1B4959;

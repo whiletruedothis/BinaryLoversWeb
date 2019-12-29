@@ -1,10 +1,16 @@
 .button {
     width: 200px;
-    height: 50px;
+    height: 45px;
     border-radius: 50px;
-    background-color: var(--button-color)
+    border: 0;
+    background-color: var(--button-color);
+    box-shadow: 10px 15px 48px -13px rgba(69,69,69,0.68);
+    cursor: pointer;
 }
 
+.button:hover {
+    background-color: var(--button-on-hover);
+}
 .button a {
 
     display: block;
