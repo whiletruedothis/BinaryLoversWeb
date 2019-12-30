@@ -1,22 +1,42 @@
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 10em;
     height: var(--footer-size);
     background-color: var(--footer-color);
 }
 
-.contact-info-container{
+.contact-container{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
     position: absolute;
     right: 1em;
-    width: 200px;
-    line-height: var(--footer-size);
-    text-align: center;
-    height: var(--footer-size);
+    width: 35%;
+    height: 4em;
+    margin-top: 1em;
 }
 
 .contact-info-container a {
     cursor: pointer;
     color: var(--contact-text-color);
     font-size: var(--contact-size-text)
+}
+
+.info-footer{
+    color: white;
+    margin-left: 3em;
+    padding-right: 30px;
+}
+
+.more-info-container{
+    width: 50%;
+    height: 2em;
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    display: flex;
+    line-height: 20px;
+    color: white;
 }

@@ -2,10 +2,12 @@
 @import url('./includes/navbar/navbar.css');
 @import url('./includes/navbar/navbar-mobile.css');
 @import url('./includes/footer/footer.css');
+@import url('./includes/footer/footer-mobile.css');
 
 /* layouts */
 @import url('./layouts/home.css');
 @import url('./layouts//home-mobile.css');
+@import url('./layouts/team.css');
 
 /* shared */
 @import url('./shared/colors.css');

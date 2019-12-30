@@ -9,7 +9,7 @@
     --number-of-elements: {% site.data.navigation * 100 %} px;
 
     /* buttons */
-    --footer-size: 3em;
+    --footer-size: 15em;
     --size-of-text-in-button: 14px;
 
     /* footer */

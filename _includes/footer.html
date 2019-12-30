@@ -1,7 +1,16 @@
 {% if site.hasFooter == true %}
     <div class="footer">
-        <div class="contact-info-container">
-            <a href="mailto:{{site.contact}}"> Contacto: {{site.contact}}</a>
+        <div class='contact-container'>
+            <p class="info-footer">
+                ¿Quieres contactarte?
+            </p>
+            <button class="button button-secondary">
+                <a href="mailto:{{site.contact}}">ENVIAR UN CORREO</a>
+            </button>
+        </div>
+
+        <div class="more-info-container">
+            Derechos reservados ® BitLab 2020 
         </div>
     </div>
 {% endif %}

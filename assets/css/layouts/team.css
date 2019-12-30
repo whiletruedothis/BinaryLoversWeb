@@ -1,0 +1,27 @@
+
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-item{
+    width: 12em;
+    height: 15em;
+    background-color:  white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2em;
+    border-radius: 12px;
+    box-shadow: 10px 10px 29px -12px rgba(0,0,0,0.56);
+}
+
+.avatar-container{
+    margin-top: 1em;
+    width: 70%;
+    height: 60%;
+}
+
+.avatar-container img{
+    border-radius: 50%;
+}

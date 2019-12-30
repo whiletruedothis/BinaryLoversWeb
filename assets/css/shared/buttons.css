@@ -3,14 +3,52 @@
     height: 45px;
     border-radius: 50px;
     border: 0;
-    background-color: var(--button-color);
     box-shadow: 10px 15px 48px -13px rgba(69,69,69,0.68);
     cursor: pointer;
 }
 
-.button:hover {
+.button-principal {
+    background-color: var(--button-color);
+}
+
+.button-principal-dark {
+    background-color: var(--button-color-dark);
+}
+
+.button-principal-dark:hover {
+    background-color: var(--button-color-dark-hover);
+}
+
+.button-principal-dark:hover a {
+    color: white !important;
+}
+
+
+.button-principal-dark a {
+    color: white !important;
+}
+
+.button-secondary{
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+    border-radius: 50px;
+}
+
+
+.button-secondary a {
+    color: white !important;
+}
+
+.button-principal:hover, .button-secondary:hover {
     background-color: var(--button-on-hover);
 }
+
+.button:hover a {
+    color: #1B4959!important;
+}
+
 .button a {
 
     display: block;
